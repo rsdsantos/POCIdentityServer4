@@ -11,3 +11,4 @@ C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreap
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.2\Api.RazorTargetAssemblyInfo.cache
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.2\Api.dll
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.2\Api.pdb
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.2\Api.csprojAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\bin\Debug\netcoreapp2.1\Api.deps.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\bin\Debug\netcoreapp2.1\Api.runtimeconfig.dev.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\bin\Debug\netcoreapp2.1\Api.dll
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\bin\Debug\netcoreapp2.1\Api.pdb
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.csproj.CoreCompileInputs.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.RazorAssemblyInfo.cs
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfoInputs.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.AssemblyInfo.cs
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.RazorTargetAssemblyInfo.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.dll
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.pdb
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Api\obj\Debug\netcoreapp2.1\Api.csprojAssemblyReference.cache

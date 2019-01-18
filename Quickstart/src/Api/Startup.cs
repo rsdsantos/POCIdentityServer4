@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Api
@@ -18,17 +12,37 @@ namespace Api
                 .AddAuthorization()
                 .AddJsonFormatters();
 
+            // Configura a validação do Access Token.
             services.AddAuthentication("Bearer") // Define 'Bearer' como schema padrão de autenticação.
-                .AddJwtBearer("Bearer", opt =>
+                .AddJwtBearer("Bearer", options =>
                 {
-                    opt.Authority = "http://localhost:5000";
-                    opt.RequireHttpsMetadata = false;
-                    opt.Audience = "api1";
-                }); // Configura a validação do Access Token.
+                    options.Authority = "http://localhost:5000";
+                    options.RequireHttpsMetadata = false;
+
+                    options.Audience = "api1";
+                });
+
+            #region Autorização de aplicações SPA.            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("default", policy =>
+                {
+                    policy.WithOrigins("http://localhost:5003")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+            });
+            #endregion            
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+            app.UseCors("default"); // Utilizado no caso de chamadas à API através de aplicação SPA.
             app.UseAuthentication();
             app.UseMvc();
         }

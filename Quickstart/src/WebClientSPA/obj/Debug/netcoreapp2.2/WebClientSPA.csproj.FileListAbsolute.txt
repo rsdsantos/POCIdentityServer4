@@ -1,0 +1,14 @@
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\bin\Debug\netcoreapp2.2\WebClientSPA.deps.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\bin\Debug\netcoreapp2.2\WebClientSPA.runtimeconfig.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\bin\Debug\netcoreapp2.2\WebClientSPA.runtimeconfig.dev.json
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\bin\Debug\netcoreapp2.2\WebClientSPA.dll
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\bin\Debug\netcoreapp2.2\WebClientSPA.pdb
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.csprojAssemblyReference.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.csproj.CoreCompileInputs.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.RazorAssemblyInfo.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.RazorAssemblyInfo.cs
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.AssemblyInfoInputs.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.AssemblyInfo.cs
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.RazorTargetAssemblyInfo.cache
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.dll
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\WebClientSPA\obj\Debug\netcoreapp2.2\WebClientSPA.pdb

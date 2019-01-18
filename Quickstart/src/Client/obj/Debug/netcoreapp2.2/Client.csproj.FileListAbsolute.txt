@@ -3,6 +3,7 @@ C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\bin\Debug\netcor
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\bin\Debug\netcoreapp2.2\Client.runtimeconfig.dev.json
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\bin\Debug\netcoreapp2.2\Client.dll
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\bin\Debug\netcoreapp2.2\Client.pdb
+C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\obj\Debug\netcoreapp2.2\Client.csprojAssemblyReference.cache
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\obj\Debug\netcoreapp2.2\Client.csproj.CoreCompileInputs.cache
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfoInputs.cache
 C:\Projetos\POCs\IdentityServer4\Tutorial\Quickstart\src\Client\obj\Debug\netcoreapp2.2\Client.AssemblyInfo.cs

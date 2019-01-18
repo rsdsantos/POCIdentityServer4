@@ -20,9 +20,10 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // uncomment, if you wan to add an MVC-based UI
-            //services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
+            // Habilita o UI do OIDC em MVC
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
+            // Configura o IdentityServer em memória
             var builder = services.AddIdentityServer()
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApis())
@@ -47,12 +48,12 @@ namespace IdentityServer
             }
 
             // uncomment if you want to support static files
-            //app.UseStaticFiles();
+            app.UseStaticFiles();
 
             app.UseIdentityServer();
 
-            // uncomment, if you wan to add an MVC-based UI
-            //app.UseMvcWithDefaultRoute();
+            // Habilita o UI do IdentityServer4 em MVC
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
