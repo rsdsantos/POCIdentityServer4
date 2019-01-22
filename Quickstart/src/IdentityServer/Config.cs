@@ -1,4 +1,5 @@
-﻿using IdentityServer4;
+﻿using IdentityModel;
+using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace IdentityServer
 
     public static class Config
     {
-        // Registra os escopos de identidade transmitidos pelos tokens nos fluxos que utilizam Authorization Code.
+        // Registra os recursos transmitidos pelos tokens nos fluxos que utilizam Authorization Code.
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new List<IdentityResource>
@@ -26,16 +27,47 @@ namespace IdentityServer
             };
         }
 
-        // Registra as APIs que serão protegidas pelo IdentityServer. (Contexto de API)
+        // Registra os recursos de APIs que serão protegidos pelo IdentityServer.
         public static IEnumerable<ApiResource> GetApis()
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "My API")
+                // Exemplo simples
+                new ApiResource("api1", "My API"),
+
+                // Exemplo detalhado
+                new ApiResource
+                {
+                    Name = "api2",
+
+                    ApiSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    // Inclui as seguintes claims no access_token (além do subject id)
+                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.Email },
+
+                    // Associa dois escopos de exemplo
+                    Scopes =
+                    {
+                        new Scope()
+                        {
+                            Name = "api2.full_access",
+                            DisplayName = "Full access to API 2",
+                        },
+                        new Scope
+                        {
+                            Name = "api2.read_only",
+                            DisplayName = "Read only access to API 2"
+                        }
+                    }
+                }
             };
         }
 
         // Registra os clients que terão acesso aos recursos.
+        // Clients representam aplicativos que podem solicitar tokens ao IdentityServer.
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>

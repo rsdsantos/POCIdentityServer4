@@ -787,23 +787,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafael.santos\\.nuget\\packages\\": {},
+    "C:\\Users\\rafas\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\POCs\\IdentityServer4\\Tutorial\\Quickstart\\src\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Projetos\\GIT\\IdentityServer4\\POCIdentityServer4\\Quickstart\\src\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Projetos\\POCs\\IdentityServer4\\Tutorial\\Quickstart\\src\\Client\\Client.csproj",
-      "packagesPath": "C:\\Users\\rafael.santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\POCs\\IdentityServer4\\Tutorial\\Quickstart\\src\\Client\\obj\\",
+      "projectPath": "C:\\Projetos\\GIT\\IdentityServer4\\POCIdentityServer4\\Quickstart\\src\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\rafas\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\GIT\\IdentityServer4\\POCIdentityServer4\\Quickstart\\src\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rafael.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rafas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -811,7 +811,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://packages.conectcar.com:9000/repository/nuget-all/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
